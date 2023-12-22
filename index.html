@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- 
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASdJREFUSEvVlcENwjAMRT9nloBNYAxOwBCcgTNDACfGgE1gE+hDTZVacROKKoGlqmra+Od/f7sjDRyjgfPrJwBmkpaSuE9qxg9JXOv67gqRY0DCe7V7VyVaRQBxwmkXSA6ApFtJc0lXBwAWJ49CCcAxY4ReAJzcCwu4kTSuPz5buSwDNPek8AABOEQvWzWxAOhNQT+JhaRLtIF6INs7LACOCVYsBeHE7AuBfVlLAjydrLfEOonQHNb0SBzNwXMMSLyvG80y49ljWwxg9S2RrVMiLBhbtA8AJoF1sgbWptaCOQat06dcxBogcdFsYzUWNM4JAzBdbedoyDXIqAh4HkCQAv+jd+9h1zU6KCbXV+M61IQfTuyuoDeNlmrCRvHcuM65Jvv+/wFespY5GamOq0cAAAAASUVORK5CYII="/>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARtJREFUSEvNlYENwjAMBN1NYBJgEmASxCTAJMAksAlwqI8MTRq3KIJIkaU28tvv/6SxyqupnN9KAHMzW5rZxG1qOrWFEQ9mds0VmgMg8eaRiBhZAK1TQCmAlZntIlkTZxauu+fvFMClpWMMBp0A8lopgNuYzLmcPwH4hiLUNC1RxJBRENIculDSvgQgaaKkKAiVk9x7JKsiEuswYLPWDwIjklB76/R/jKpIFcmxJaoApTAKehNOSkVUIZoAgtOza993QnfMTN9CPqjuZFWjlkv08F+Uai69TiaxBgcYt6koI+rmJH7epl4gWRVxVWRvx0w7g4bsnQwQmyH7yv374E35H06GBbge4+SObyJP5hAnd0ZUAohItPdMdYA7FBdIGZmTki4AAAAASUVORK5CYII="/>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAHBJREFUSEtjZKAxYKSx+Qy4LDjFwMBgimb5aQYGBjNSHYTLgv84DCLZxyPXAqLjiNwgIjqORi1AT80YITIaRKNBhFHkwRIFxRmNUFFASB7uMpKLX2rVB6Sag1M9sg9whSu5loHNpqsF5LoUrz6aRzIALXEiGf4faSEAAAAASUVORK5CYII="/>
+        Having studied university for so long and working with tech for some years, I have encountered most of the well known programming languages, 
+        working with tickets, version control etc. C++, Java, .Net, C#, Jinja, SSMS are other languages I have been working with - and I think it is 
+        important to emphasize that I am eager to keep learning - I would like to know it all!                         
+        There is always more to explore and master, and I believe that being adaptable, staying up to date with emerging technologies 
+        is a must in the quickly transforming field of data science.
+        -->
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Carl</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Carl</span><br> Data Scientist</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/carl-liljedahl-605724109/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> -->
+                    <a href="https://github.com/calleliljedahl" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d = "M 9.1902 145.964 C 34.0253 76.5814 101 24 179 15 C 226 13 290 -1 367 29 C 432 56 467.948 107.508 477.191 174.311 C 485 238 454.931 294.377 416.506 344.954 C 373.74 401.245 326.068 462.801 255.442 466.189 C 179.416 469.835 111.552 422.137 65.1576 361.805 C 17.4835 299.81 -17.1617 219.583 9.1902 145.964 Z"/>
+                            <!-- <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/> -->
+                        </mask>
+                        
+                        <g mask="url(#mask0)">
+                            <path d = "M 9.1902 145.964 C 34.0253 76.5814 101 24 179 15 C 226 13 290 -1 367 29 C 432 56 467.948 107.508 477.191 174.311 C 485 238 454.931 294.377 416.506 344.954 C 373.74 401.245 326.068 462.801 255.442 466.189 C 179.416 469.835 111.552 422.137 65.1576 361.805 C 17.4835 299.81 -17.1617 219.583 9.1902 145.964 Z"/>
+                            <!-- <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/> -->
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I am Carl - returning student seeking a masters thesis</h2>
+                        <p class="about__text">
+                            Having worked for four years as a Data Scientist I decided to go back to school, where I studied Computer Science at KTH Royal Institute of Technology, but never did my final Masters Thesis. 
+                            Mainly I have been working in the loan broaker industry, giving me the oppurtunity to try out a lot of sub-domains in the field of data. Some of them being projects like 
+                            deploying advanced Machine Learning models directely impacting the companies revenue, building and maintaining Data Warhouses, comprehensive data analyzises, visualizations - you name it!   
+                            Other than being very passionate about data, I enjoy playing music, tennis, skateboarding and building/developing my house robot (yes, my enthusiasm for data extends beyond my professional life, stay tuned for more on that in an upcoming segment). 
+                            Now I am looking for a company in the creative industry I can do a Masters Thesis at this coming spring. 
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">
+                            My educational background and professional experience have exposed me to a wide spectrum of programming languages and tools. 
+                            I really want to emphasize that I am eager to keep learning - I would like to know it all!
+                            Instead of listing every language and tool I have used professionally, I have chosen three that I feel extra comfortable using.
+                            
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASdJREFUSEvVlcENwjAMRT9nloBNYAxOwBCcgTNDACfGgE1gE+hDTZVacROKKoGlqmra+Od/f7sjDRyjgfPrJwBmkpaSuE9qxg9JXOv67gqRY0DCe7V7VyVaRQBxwmkXSA6ApFtJc0lXBwAWJ49CCcAxY4ReAJzcCwu4kTSuPz5buSwDNPek8AABOEQvWzWxAOhNQT+JhaRLtIF6INs7LACOCVYsBeHE7AuBfVlLAjydrLfEOonQHNb0SBzNwXMMSLyvG80y49ljWwxg9S2RrVMiLBhbtA8AJoF1sgbWptaCOQat06dcxBogcdFsYzUWNM4JAzBdbedoyDXIqAh4HkCQAv+jd+9h1zU6KCbXV+M61IQfTuyuoDeNlmrCRvHcuM65Jvv+/wFespY5GamOq0cAAAAASUVORK5CYII="/>
+                                    <span class="skills__name">Python</span>
+                                </div>
+                                <div class="skills__bar skills__html">
+    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">asd</span>
+                                </div>
+                            </div>
+                            I absolutely love woring with Python - this is often my number one choice for most applications. Training models, cleaning data, creating pipelines for 
+                            data streaming and much more. I would argue you could never know it all but I am comfortable using data-related libraries such as Pandas, NumPy and Scipy and many more.
+                            <br><br>
+
+
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARtJREFUSEvNlYENwjAMBN1NYBJgEmASxCTAJMAksAlwqI8MTRq3KIJIkaU28tvv/6SxyqupnN9KAHMzW5rZxG1qOrWFEQ9mds0VmgMg8eaRiBhZAK1TQCmAlZntIlkTZxauu+fvFMClpWMMBp0A8lopgNuYzLmcPwH4hiLUNC1RxJBRENIculDSvgQgaaKkKAiVk9x7JKsiEuswYLPWDwIjklB76/R/jKpIFcmxJaoApTAKehNOSkVUIZoAgtOza993QnfMTN9CPqjuZFWjlkv08F+Uai69TiaxBgcYt6koI+rmJH7epl4gWRVxVWRvx0w7g4bsnQwQmyH7yv374E35H06GBbge4+SObyJP5hAnd0ZUAohItPdMdYA7FBdIGZmTki4AAAAASUVORK5CYII="/>
+                                    <!-- <i class='bx bxl-javascript skills__icon' ></i> -->
+                                    <span class="skills__name">SQL</span>
+                                </div>
+                                <div class="skills__bar skills__js">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">asd</span>
+                                </div>
+                            </div>
+                            I am very comfortable in SQL - just like python, I seldom complete a day of work without interacting with SQL. Mostly, I have worked with MySQL on GCP, but recently also worked with
+                            T-SQL on a SSIS-Stack. 
+                            <br><br>
+                            
+
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <!-- <i class='bx bxs-paint skills__icon'></i> -->
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAHBJREFUSEtjZKAxYKSx+Qy4LDjFwMBgimb5aQYGBjNSHYTLgv84DCLZxyPXAqLjiNwgIjqORi1AT80YITIaRKNBhFHkwRIFxRmNUFFASB7uMpKLX2rVB6Sag1M9sg9whSu5loHNpqsF5LoUrz6aRzIALXEiGf4faSEAAAAASUVORK5CYII="/>
+
+                                    <span class="skills__name">Tableau</span>
+                                </div>
+                                <div class="skills__bar skills__ux">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">asd</span>
+                                </div>
+                            </div>
+                            I have spent a lot of time in Tabeleu, a great tool for analyses that needs to be presented or interacted with by others. I have tried out similar tools such as Power BI and Redash,
+                            but find Tableau being superior in terms of integration with different kind of databases and looks. 
+                             
+                        </p>
+                        
+
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    Not too long ago it was run on tracks (GIF). 
+                    Currently, I am working on building the vertical elevator where the six axis arm will be, allowing dadel to fetch dishes and put them in the dishwasher.
+                    <a href="" class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    Are you an employer willing to have an interview with me to discuss further? 
+                    <span class="home__title-color">liljedahlcarl@gmail.com</span>
+                    <!-- 
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form> -->
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">liljedahlcarl@gmail.com</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/carl-liljedahl-605724109/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/calleliljedahl" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
