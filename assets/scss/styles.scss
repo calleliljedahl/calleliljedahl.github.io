@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 /*===== VARIABLES CSS =====*/
---header-height: 3rem;
+    --header-height: 3rem;
     --font-semi: 600;
 
     /*===== Colores =====*/
@@ -258,6 +258,26 @@ img{
     }
 }
 
+/* ===== ROBOT =====*/
+.robot{
+    &__container{
+        row-gap: 2rem;
+        text-align: center;
+    }
+    &__subtitle{
+        margin-bottom: var(--mb-2);
+    }
+
+    &__img{
+        justify-self: center;
+        
+        & img{
+            width: 200px;
+            border-radius: .5rem;
+        }
+    }
+}
+
 /* ===== SKILLS =====*/
 .skills{
     &__container{
@@ -414,6 +434,12 @@ img{
     }
 
     .about__container{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        text-align: initial;
+    }
+
+    .robot__container{
         grid-template-columns: repeat(2,1fr);
         align-items: center;
         text-align: initial;
